@@ -1,0 +1,23 @@
+{
+  "name": "serene",
+  "version": "1.0.0",
+  "description": "Landing page for serene",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gg-javi/serene-spa.git"
+  },
+  "author": "Javier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gg-javi/serene-spa/issues"
+  },
+  "homepage": "https://github.com/gg-javi/serene-spa#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  },
+  "dependencies": {}
+}

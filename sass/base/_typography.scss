@@ -1,0 +1,38 @@
+body {
+  font-family: $font-family-sans;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: var(--text-color);
+  padding: 2rem;
+}
+
+.showcase-heading {
+  color: $color-white;
+  margin-bottom: 7.4rem;
+
+  &--main {
+    display: block;
+    font-family: $font-family-serif;
+    font-size: 7.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2.4rem;
+    /* animation */
+    animation-name: moveInLeft;
+    animation-duration: 2.3s;
+  }
+
+  &--sub {
+    display: block;
+    font-family: $font-family-cursive;
+    font-size: 3.2rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 1rem;
+    /* animation */
+    animation-name: moveInRight;
+    animation-duration: 2.3s;
+  }
+}

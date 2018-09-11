@@ -16,7 +16,7 @@
     }
 
     &--p2 {
-      right: 2rem;
+      right: 0rem;
       top: 2rem;
     }
 
@@ -28,12 +28,12 @@
     &:hover {
       outline: 1.5rem solid $color-medium-purple;
       transform: scale(1.05) translateY(-0.5rem);
-      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.4);
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.5);
       z-index: 20;
     }
   }
 
-  &::hover &__photo:not(:hover) {
+  &:hover &__photo:not(:hover) {
     transform: scale(0.95);
   }
 }

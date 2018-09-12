@@ -19,8 +19,13 @@
   }
 
   &--white {
-    background-color: #fff;
+    background-color: $color-white;
     color: $color-text-dark;
+  }
+
+  &--green {
+    background-color: $color-dark-green;
+    color: $color-white;
   }
 }
 
